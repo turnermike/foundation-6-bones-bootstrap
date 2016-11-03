@@ -79,6 +79,7 @@ RUN yum clean all
 # open ports
 # EXPOSE 80 443
 EXPOSE 80
+# EXPOSE 81
 
 # start apache
 CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]

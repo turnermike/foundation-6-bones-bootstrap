@@ -23,3 +23,70 @@
 [03-Nov-2016 15:27:15 UTC] PHP   6. wp_update_plugins() /public_html/wp-includes/update.php:631
 [03-Nov-2016 15:27:15 UTC] PHP   7. trigger_error() /public_html/wp-includes/update.php:306
 [03-Nov-2016 16:19:46 UTC] running wpo_cron_deactivate()
+[03-Nov-2016 17:29:54 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /public_html/wp-includes/wp-db.php on line 1529
+[03-Nov-2016 17:29:54 UTC] PHP Stack trace:
+[03-Nov-2016 17:29:54 UTC] PHP   1. {main}() /public_html/wp-admin/admin-ajax.php:0
+[03-Nov-2016 17:29:54 UTC] PHP   2. require_once() /public_html/wp-admin/admin-ajax.php:22
+[03-Nov-2016 17:29:54 UTC] PHP   3. require_once() /public_html/wp-load.php:39
+[03-Nov-2016 17:29:54 UTC] PHP   4. require_once() /public_html/wp-config.php:124
+[03-Nov-2016 17:29:54 UTC] PHP   5. require_wp_db() /public_html/wp-settings.php:101
+[03-Nov-2016 17:29:54 UTC] PHP   6. wpdb->__construct() /public_html/wp-includes/load.php:404
+[03-Nov-2016 17:29:54 UTC] PHP   7. wpdb->db_connect() /public_html/wp-includes/wp-db.php:658
+[03-Nov-2016 17:29:54 UTC] PHP   8. mysqli_real_connect() /public_html/wp-includes/wp-db.php:1529
+[03-Nov-2016 17:29:54 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /public_html/wp-includes/wp-db.php on line 1559
+[03-Nov-2016 17:29:54 UTC] PHP Stack trace:
+[03-Nov-2016 17:29:54 UTC] PHP   1. {main}() /public_html/wp-admin/admin-ajax.php:0
+[03-Nov-2016 17:29:54 UTC] PHP   2. require_once() /public_html/wp-admin/admin-ajax.php:22
+[03-Nov-2016 17:29:54 UTC] PHP   3. require_once() /public_html/wp-load.php:39
+[03-Nov-2016 17:29:54 UTC] PHP   4. require_once() /public_html/wp-config.php:124
+[03-Nov-2016 17:29:54 UTC] PHP   5. require_wp_db() /public_html/wp-settings.php:101
+[03-Nov-2016 17:29:54 UTC] PHP   6. wpdb->__construct() /public_html/wp-includes/load.php:404
+[03-Nov-2016 17:29:54 UTC] PHP   7. wpdb->db_connect() /public_html/wp-includes/wp-db.php:658
+[03-Nov-2016 17:29:54 UTC] PHP   8. wpdb->db_connect() /public_html/wp-includes/wp-db.php:1554
+[03-Nov-2016 17:29:54 UTC] PHP   9. mysql_connect() /public_html/wp-includes/wp-db.php:1559
+[03-Nov-2016 17:29:54 UTC] PHP Warning:  mysql_connect(): Connection refused in /public_html/wp-includes/wp-db.php on line 1559
+[03-Nov-2016 17:29:54 UTC] PHP Stack trace:
+[03-Nov-2016 17:29:54 UTC] PHP   1. {main}() /public_html/wp-admin/admin-ajax.php:0
+[03-Nov-2016 17:29:54 UTC] PHP   2. require_once() /public_html/wp-admin/admin-ajax.php:22
+[03-Nov-2016 17:29:54 UTC] PHP   3. require_once() /public_html/wp-load.php:39
+[03-Nov-2016 17:29:54 UTC] PHP   4. require_once() /public_html/wp-config.php:124
+[03-Nov-2016 17:29:54 UTC] PHP   5. require_wp_db() /public_html/wp-settings.php:101
+[03-Nov-2016 17:29:54 UTC] PHP   6. wpdb->__construct() /public_html/wp-includes/load.php:404
+[03-Nov-2016 17:29:54 UTC] PHP   7. wpdb->db_connect() /public_html/wp-includes/wp-db.php:658
+[03-Nov-2016 17:29:54 UTC] PHP   8. wpdb->db_connect() /public_html/wp-includes/wp-db.php:1554
+[03-Nov-2016 17:29:54 UTC] PHP   9. mysql_connect() /public_html/wp-includes/wp-db.php:1559
+[03-Nov-2016 17:35:53 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /public_html/wp-includes/wp-db.php on line 1529
+[03-Nov-2016 17:35:53 UTC] PHP Stack trace:
+[03-Nov-2016 17:35:53 UTC] PHP   1. {main}() /public_html/index.php:0
+[03-Nov-2016 17:35:53 UTC] PHP   2. require() /public_html/index.php:17
+[03-Nov-2016 17:35:53 UTC] PHP   3. require_once() /public_html/wp-blog-header.php:13
+[03-Nov-2016 17:35:53 UTC] PHP   4. require_once() /public_html/wp-load.php:39
+[03-Nov-2016 17:35:53 UTC] PHP   5. require_once() /public_html/wp-config.php:124
+[03-Nov-2016 17:35:53 UTC] PHP   6. require_wp_db() /public_html/wp-settings.php:101
+[03-Nov-2016 17:35:53 UTC] PHP   7. wpdb->__construct() /public_html/wp-includes/load.php:404
+[03-Nov-2016 17:35:53 UTC] PHP   8. wpdb->db_connect() /public_html/wp-includes/wp-db.php:658
+[03-Nov-2016 17:35:53 UTC] PHP   9. mysqli_real_connect() /public_html/wp-includes/wp-db.php:1529
+[03-Nov-2016 17:35:53 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /public_html/wp-includes/wp-db.php on line 1559
+[03-Nov-2016 17:35:53 UTC] PHP Stack trace:
+[03-Nov-2016 17:35:53 UTC] PHP   1. {main}() /public_html/index.php:0
+[03-Nov-2016 17:35:53 UTC] PHP   2. require() /public_html/index.php:17
+[03-Nov-2016 17:35:53 UTC] PHP   3. require_once() /public_html/wp-blog-header.php:13
+[03-Nov-2016 17:35:53 UTC] PHP   4. require_once() /public_html/wp-load.php:39
+[03-Nov-2016 17:35:53 UTC] PHP   5. require_once() /public_html/wp-config.php:124
+[03-Nov-2016 17:35:53 UTC] PHP   6. require_wp_db() /public_html/wp-settings.php:101
+[03-Nov-2016 17:35:53 UTC] PHP   7. wpdb->__construct() /public_html/wp-includes/load.php:404
+[03-Nov-2016 17:35:53 UTC] PHP   8. wpdb->db_connect() /public_html/wp-includes/wp-db.php:658
+[03-Nov-2016 17:35:53 UTC] PHP   9. wpdb->db_connect() /public_html/wp-includes/wp-db.php:1554
+[03-Nov-2016 17:35:53 UTC] PHP  10. mysql_connect() /public_html/wp-includes/wp-db.php:1559
+[03-Nov-2016 17:35:53 UTC] PHP Warning:  mysql_connect(): Connection refused in /public_html/wp-includes/wp-db.php on line 1559
+[03-Nov-2016 17:35:53 UTC] PHP Stack trace:
+[03-Nov-2016 17:35:53 UTC] PHP   1. {main}() /public_html/index.php:0
+[03-Nov-2016 17:35:53 UTC] PHP   2. require() /public_html/index.php:17
+[03-Nov-2016 17:35:53 UTC] PHP   3. require_once() /public_html/wp-blog-header.php:13
+[03-Nov-2016 17:35:53 UTC] PHP   4. require_once() /public_html/wp-load.php:39
+[03-Nov-2016 17:35:53 UTC] PHP   5. require_once() /public_html/wp-config.php:124
+[03-Nov-2016 17:35:53 UTC] PHP   6. require_wp_db() /public_html/wp-settings.php:101
+[03-Nov-2016 17:35:53 UTC] PHP   7. wpdb->__construct() /public_html/wp-includes/load.php:404
+[03-Nov-2016 17:35:53 UTC] PHP   8. wpdb->db_connect() /public_html/wp-includes/wp-db.php:658
+[03-Nov-2016 17:35:53 UTC] PHP   9. wpdb->db_connect() /public_html/wp-includes/wp-db.php:1554
+[03-Nov-2016 17:35:53 UTC] PHP  10. mysql_connect() /public_html/wp-includes/wp-db.php:1559
