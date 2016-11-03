@@ -9,6 +9,7 @@ services:
     image: "realinteractive/f6bb-web"
     ports:
       - "80:80"
+      # - "80:81"
       # - "443:443"
     links:
       - f6bb-db
@@ -23,6 +24,7 @@ services:
     image: mysql:5.7
     ports:
       - "3306:3306"
+      # - "3306:3307"
     volumes:
       - "./.data/db:/var/lib/mysql"
     restart: always
