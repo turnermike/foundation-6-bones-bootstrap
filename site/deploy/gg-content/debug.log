@@ -1,0 +1,25 @@
+[02-Nov-2016 20:40:37 UTC] PHP Deprecated:  Non-static method ITSEC_WordPress_Salts_Utilities::generate_new_salts() should not be called statically, assuming $this from incompatible context in /public_html/wp-content/plugins/better-wp-security/core/modules/salts/validator.php on line 49
+[02-Nov-2016 20:40:37 UTC] PHP Stack trace:
+[02-Nov-2016 20:40:37 UTC] PHP   1. {main}() /public_html/wp-admin/admin-ajax.php:0
+[02-Nov-2016 20:40:37 UTC] PHP   2. do_action() /public_html/wp-admin/admin-ajax.php:91
+[02-Nov-2016 20:40:37 UTC] PHP   3. call_user_func_array:{/public_html/wp-includes/plugin.php:524}() /public_html/wp-includes/plugin.php:524
+[02-Nov-2016 20:40:37 UTC] PHP   4. ITSEC_Admin_Page_Loader->handle_ajax_request() /public_html/wp-includes/plugin.php:524
+[02-Nov-2016 20:40:37 UTC] PHP   5. do_action() /public_html/wp-content/plugins/better-wp-security/core/admin-pages/init.php:86
+[02-Nov-2016 20:40:37 UTC] PHP   6. call_user_func_array:{/public_html/wp-includes/plugin.php:524}() /public_html/wp-includes/plugin.php:524
+[02-Nov-2016 20:40:37 UTC] PHP   7. ITSEC_Settings_Page->handle_ajax_request() /public_html/wp-includes/plugin.php:524
+[02-Nov-2016 20:40:37 UTC] PHP   8. ITSEC_Settings_Page->handle_post() /public_html/wp-content/plugins/better-wp-security/core/admin-pages/page-settings.php:156
+[02-Nov-2016 20:40:37 UTC] PHP   9. ITSEC_Module_Settings_Page->handle_form_post() /public_html/wp-content/plugins/better-wp-security/core/admin-pages/page-settings.php:268
+[02-Nov-2016 20:40:37 UTC] PHP  10. ITSEC_Modules::set_settings() /public_html/wp-content/plugins/better-wp-security/core/admin-pages/module-settings.php:262
+[02-Nov-2016 20:40:37 UTC] PHP  11. ITSEC_Settings->set_all() /public_html/wp-content/plugins/better-wp-security/core/class-itsec-modules.php:187
+[02-Nov-2016 20:40:37 UTC] PHP  12. ITSEC_Validator->validate() /public_html/wp-content/plugins/better-wp-security/core/lib/settings.php:58
+[02-Nov-2016 20:40:37 UTC] PHP  13. ITSEC_WordPress_Salts_Validator->validate_settings() /public_html/wp-content/plugins/better-wp-security/core/lib/validator.php:48
+[03-Nov-2016 15:27:15 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /public_html/wp-includes/update.php on line 306
+[03-Nov-2016 15:27:15 UTC] PHP Stack trace:
+[03-Nov-2016 15:27:15 UTC] PHP   1. {main}() /public_html/wp-admin/plugins.php:0
+[03-Nov-2016 15:27:15 UTC] PHP   2. require_once() /public_html/wp-admin/plugins.php:10
+[03-Nov-2016 15:27:15 UTC] PHP   3. do_action() /public_html/wp-admin/admin.php:154
+[03-Nov-2016 15:27:15 UTC] PHP   4. call_user_func_array:{/public_html/wp-includes/plugin.php:524}() /public_html/wp-includes/plugin.php:524
+[03-Nov-2016 15:27:15 UTC] PHP   5. _maybe_update_plugins() /public_html/wp-includes/plugin.php:524
+[03-Nov-2016 15:27:15 UTC] PHP   6. wp_update_plugins() /public_html/wp-includes/update.php:631
+[03-Nov-2016 15:27:15 UTC] PHP   7. trigger_error() /public_html/wp-includes/update.php:306
+[03-Nov-2016 16:19:46 UTC] running wpo_cron_deactivate()
