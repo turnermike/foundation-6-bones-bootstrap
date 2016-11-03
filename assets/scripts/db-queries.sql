@@ -1,0 +1,17 @@
+---
+--- Dev
+---
+
+--- Connect
+mysql -h 0.0.0.0 -u greengiant-p'iO#2d*23Xs5@d%' greengiant_website
+
+--- Dump
+docker exec -i f6bb-db mysqldump -uf6bb -p'N#skj&98SR%Jje' f6bb_website > ~/Sites/Scripts/foundation-6-bones-bootstrap/assets/database/development/latest.sql &&
+docker exec -i f6bb-db mysqldump -uf6bb -p'N#skj&98SR%Jje' f6bb_website > ~/Sites/Scripts/foundation-6-bones-bootstrap/assets/database/development/greengiantwebsite_$(date +%Y-%m-%d_%H-%M-%S).sql
+
+--- http://greengiant.dev to foundation-6-bones-bootstrap.dev
+update om21qxlqh_options set option_value=replace(option_value,'http://greengiant.dev','http://foundation-6-bones-bootstrap.dev') where option_value like "%http://greengiant.dev%";
+update om21qxlqh_posts SET guid=replace(guid, 'http://greengiant.dev','http://foundation-6-bones-bootstrap.dev');
+update om21qxlqh_posts SET post_excerpt=replace(post_excerpt, 'http://greengiant.dev','http://foundation-6-bones-bootstrap.dev');
+update om21qxlqh_posts SET post_content=replace(post_content, 'http://greengiant.dev','http://foundation-6-bones-bootstrap.dev');
+update om21qxlqh_postmeta SET meta_value=replace(meta_value, 'http://greengiant.dev','http://foundation-6-bones-bootstrap.dev');
