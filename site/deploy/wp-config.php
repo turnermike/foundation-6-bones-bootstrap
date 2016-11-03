@@ -27,7 +27,7 @@ if($result > 0) $environment = 'production';
 
 //declare constant
 define('ENVIRONMENT', $environment);
-echo 'ENV: ' . ENVIRONMENT;
+// echo 'ENV: ' . ENVIRONMENT;
 
 //define database connection settings
 if(defined('ENVIRONMENT')){
