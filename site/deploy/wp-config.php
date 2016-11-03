@@ -34,7 +34,7 @@ if(defined('ENVIRONMENT')){
     switch(ENVIRONMENT){
     case 'development':
         define('WP_CONTENT_DIR', '/public_html/gg-content');
-        define('WP_CONTENT_URL', 'http://foundation-6-bones-bootstrap.dev:81/gg-content');
+        define('WP_CONTENT_URL', 'http://foundation-6-bones-bootstrap.dev/gg-content');
         define('DB_HOST', 'f6bb-db');
         define('WP_DEBUG', true);
         define('WP_DEBUG_LOG', true);
