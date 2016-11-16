@@ -6,7 +6,8 @@ services:
       - f6bb-db
     build: .
     container_name: f6bb-web
-    image: "realinteractive/f6bb-web"
+    image: "744241446859.dkr.ecr.us-east-1.amazonaws.com/foundation-6-bones-bootstrap:latest"
+    # image: "realinteractive/f6bb-web"
     ports:
       - "80:80"
     links:
