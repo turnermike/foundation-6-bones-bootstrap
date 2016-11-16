@@ -4,8 +4,9 @@ Theme URI:
 Description: A starter theme based off of the Bones Wordpress Theme and Foundation 6 Framework.
 Author: Real Interactive
 Author URI: http://www.realinterative.ca
+Text Domain: realinteractive.ca;
 Version: 0.0.1
-Tags:;
+
 
 License:
 License URI:
@@ -106,3 +107,10 @@ Great work, Theme Check (eye roll)
 .sticky {}          /* DO NOT EDIT THIS */
 .gallery-caption {} /* THESE ARE USELESS */
 .bypostauthor {}    /* THEY ARE ONLY TO KEEP THEME CHECK HAPPY */
+.wp-caption{}
+.wp-caption-text{}
+.screen-reader-text{}
+.alignright{ text-align: right; }
+.alignleft{ text-align: left; }
+.aligncenter{ text-align: center; }
+
