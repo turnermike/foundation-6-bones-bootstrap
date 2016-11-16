@@ -90,3 +90,41 @@
 [03-Nov-2016 17:35:53 UTC] PHP   8. wpdb->db_connect() /public_html/wp-includes/wp-db.php:658
 [03-Nov-2016 17:35:53 UTC] PHP   9. wpdb->db_connect() /public_html/wp-includes/wp-db.php:1554
 [03-Nov-2016 17:35:53 UTC] PHP  10. mysql_connect() /public_html/wp-includes/wp-db.php:1559
+[16-Nov-2016 17:20:18 UTC] PHP Warning:  require_once(library/custom-post-type.php): failed to open stream: No such file or directory in /public_html/f6bb-content/themes/foundation-6-bones-bootstrap/functions.php on line 31
+[16-Nov-2016 17:20:18 UTC] PHP Stack trace:
+[16-Nov-2016 17:20:18 UTC] PHP   1. {main}() /public_html/wp-admin/admin-ajax.php:0
+[16-Nov-2016 17:20:18 UTC] PHP   2. require_once() /public_html/wp-admin/admin-ajax.php:22
+[16-Nov-2016 17:20:18 UTC] PHP   3. require_once() /public_html/wp-load.php:39
+[16-Nov-2016 17:20:18 UTC] PHP   4. require_once() /public_html/wp-config.php:124
+[16-Nov-2016 17:20:18 UTC] PHP   5. do_action() /public_html/wp-settings.php:395
+[16-Nov-2016 17:20:18 UTC] PHP   6. call_user_func_array:{/public_html/wp-includes/plugin.php:524}() /public_html/wp-includes/plugin.php:524
+[16-Nov-2016 17:20:18 UTC] PHP   7. bones_ahoy() /public_html/wp-includes/plugin.php:524
+[16-Nov-2016 17:20:18 UTC] PHP Fatal error:  require_once(): Failed opening required 'library/custom-post-type.php' (include_path='.:/usr/share/pear:/usr/share/php') in /public_html/f6bb-content/themes/foundation-6-bones-bootstrap/functions.php on line 31
+[16-Nov-2016 17:20:18 UTC] PHP Stack trace:
+[16-Nov-2016 17:20:18 UTC] PHP   1. {main}() /public_html/wp-admin/admin-ajax.php:0
+[16-Nov-2016 17:20:18 UTC] PHP   2. require_once() /public_html/wp-admin/admin-ajax.php:22
+[16-Nov-2016 17:20:18 UTC] PHP   3. require_once() /public_html/wp-load.php:39
+[16-Nov-2016 17:20:18 UTC] PHP   4. require_once() /public_html/wp-config.php:124
+[16-Nov-2016 17:20:18 UTC] PHP   5. do_action() /public_html/wp-settings.php:395
+[16-Nov-2016 17:20:18 UTC] PHP   6. call_user_func_array:{/public_html/wp-includes/plugin.php:524}() /public_html/wp-includes/plugin.php:524
+[16-Nov-2016 17:20:18 UTC] PHP   7. bones_ahoy() /public_html/wp-includes/plugin.php:524
+[16-Nov-2016 17:21:14 UTC] PHP Warning:  require_once(library/custom-post-type.php): failed to open stream: No such file or directory in /public_html/f6bb-content/themes/foundation-6-bones-bootstrap/functions.php on line 31
+[16-Nov-2016 17:21:14 UTC] PHP Stack trace:
+[16-Nov-2016 17:21:14 UTC] PHP   1. {main}() /public_html/wp-admin/themes.php:0
+[16-Nov-2016 17:21:14 UTC] PHP   2. require_once() /public_html/wp-admin/themes.php:10
+[16-Nov-2016 17:21:14 UTC] PHP   3. require_once() /public_html/wp-admin/admin.php:31
+[16-Nov-2016 17:21:14 UTC] PHP   4. require_once() /public_html/wp-load.php:39
+[16-Nov-2016 17:21:14 UTC] PHP   5. require_once() /public_html/wp-config.php:124
+[16-Nov-2016 17:21:14 UTC] PHP   6. do_action() /public_html/wp-settings.php:395
+[16-Nov-2016 17:21:14 UTC] PHP   7. call_user_func_array:{/public_html/wp-includes/plugin.php:524}() /public_html/wp-includes/plugin.php:524
+[16-Nov-2016 17:21:14 UTC] PHP   8. bones_ahoy() /public_html/wp-includes/plugin.php:524
+[16-Nov-2016 17:21:14 UTC] PHP Fatal error:  require_once(): Failed opening required 'library/custom-post-type.php' (include_path='.:/usr/share/pear:/usr/share/php') in /public_html/f6bb-content/themes/foundation-6-bones-bootstrap/functions.php on line 31
+[16-Nov-2016 17:21:14 UTC] PHP Stack trace:
+[16-Nov-2016 17:21:14 UTC] PHP   1. {main}() /public_html/wp-admin/themes.php:0
+[16-Nov-2016 17:21:14 UTC] PHP   2. require_once() /public_html/wp-admin/themes.php:10
+[16-Nov-2016 17:21:14 UTC] PHP   3. require_once() /public_html/wp-admin/admin.php:31
+[16-Nov-2016 17:21:14 UTC] PHP   4. require_once() /public_html/wp-load.php:39
+[16-Nov-2016 17:21:14 UTC] PHP   5. require_once() /public_html/wp-config.php:124
+[16-Nov-2016 17:21:14 UTC] PHP   6. do_action() /public_html/wp-settings.php:395
+[16-Nov-2016 17:21:14 UTC] PHP   7. call_user_func_array:{/public_html/wp-includes/plugin.php:524}() /public_html/wp-includes/plugin.php:524
+[16-Nov-2016 17:21:14 UTC] PHP   8. bones_ahoy() /public_html/wp-includes/plugin.php:524
