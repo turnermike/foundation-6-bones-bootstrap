@@ -9,33 +9,22 @@ services:
     image: "realinteractive/f6bb-web"
     ports:
       - "80:80"
-      # - "81:80"
-      # - "443:443"
     links:
       - f6bb-db
     volumes:
       - ./deploy:/public_html
     restart: always
-    networks:
-      - f6bb-network
 
   f6bb-db:
     container_name: f6bb-db
     image: mysql:5.7
-    ports:
-      - "3306:3306"
-      # - "3307:3306"
+    # ports:
+    #   - "3306:3306"
     volumes:
       - "./.data/db:/var/lib/mysql"
     restart: always
-    networks:
-      - f6bb-network
     environment:
       MYSQL_ROOT_PASSWORD: H#8Et%xj@i%
       MYSQL_DATABASE: f6bb_website
       MYSQL_USER: f6bb
       MYSQL_PASSWORD: N#skj&98SR%Jje
-
-networks:
-  f6bb-network:
-
