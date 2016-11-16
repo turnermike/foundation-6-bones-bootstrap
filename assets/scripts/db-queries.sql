@@ -1,4 +1,17 @@
 ---
+--- SQL Commands
+---
+
+---
+--- General
+---
+
+--- get the site url
+select option_value from om21qxlqh_options where option_id = 1;
+
+
+
+---
 --- Dev
 ---
 
