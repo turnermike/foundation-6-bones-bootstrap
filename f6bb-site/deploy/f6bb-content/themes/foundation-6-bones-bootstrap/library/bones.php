@@ -75,7 +75,7 @@ function rw_title( $title, $sep, $seplocation ) {
 
   // Add a page number if necessary:
   if ( $paged >= 2 || $page >= 2 ) {
-    $title .= " {$sep} " . sprintf( __( 'Page %s', 'dbt' ), max( $paged, $page ) );
+    $title .= " {$sep} " . sprintf( __( 'Page %s', 'foundation-6-bones-bootstrap' ), max( $paged, $page ) );
   }
 
   return $title;
@@ -201,8 +201,8 @@ function bones_theme_support() {
 	// registering wp3+ menus
 	register_nav_menus(
 		array(
-			'main-nav' => __( 'The Main Menu', 'bonestheme' ),   // main nav in header
-			'footer-links' => __( 'Footer Links', 'bonestheme' ) // secondary nav in footer
+			'main-nav' => __( 'The Main Menu', 'foundation-6-bones-bootstrap' ),   // main nav in header
+			'footer-links' => __( 'Footer Links', 'foundation-6-bones-bootstrap' ) // secondary nav in footer
 		)
 	);
 
@@ -240,7 +240,7 @@ function bones_related_posts() {
 				<li class="related_post"><a class="entry-unrelated" href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></li>
 			<?php endforeach; }
 		else { ?>
-			<?php echo '<li class="no_related_post">' . __( 'No Related Posts Yet!', 'bonestheme' ) . '</li>'; ?>
+			<?php echo '<li class="no_related_post">' . __( 'No Related Posts Yet!', 'foundation-6-bones-bootstrap' ) . '</li>'; ?>
 		<?php }
 	}
 	wp_reset_postdata();
@@ -285,7 +285,7 @@ function bones_filter_ptags_on_images($content){
 function bones_excerpt_more($more) {
 	global $post;
 	// edit here if you like
-	return '...  <a class="excerpt-read-more" href="'. get_permalink( $post->ID ) . '" title="'. __( 'Read ', 'bonestheme' ) . esc_attr( get_the_title( $post->ID ) ).'">'. __( 'Read more &raquo;', 'bonestheme' ) .'</a>';
+	return '...  <a class="excerpt-read-more" href="'. get_permalink( $post->ID ) . '" title="'. __( 'Read ', 'foundation-6-bones-bootstrap' ) . esc_attr( get_the_title( $post->ID ) ).'">'. __( 'Read more &raquo;', 'foundation-6-bones-bootstrap' ) .'</a>';
 }
 
 
