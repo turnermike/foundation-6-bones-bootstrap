@@ -25,7 +25,8 @@ ENV APACHE_PID_FILE /var/run/httpd.pid
 # ==========================================================================
 
 # install software (extra packages for enterprise linux (EPEL), apache, mod_ssl, php)
-RUN rpm -ivh http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
+# RUN rpm -ivh http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
+RUN yum install -y epel-release
 RUN rpm -ivh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
 RUN yum install -y nano
 RUN yum install -y httpd
