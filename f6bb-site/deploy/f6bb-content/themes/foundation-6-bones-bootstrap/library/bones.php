@@ -213,6 +213,9 @@ function bones_theme_support() {
 		'comment-form'
 	) );
 
+    // title tag (making theme check happy)
+    add_theme_support('title-tag');
+
 } /* end bones theme support */
 
 

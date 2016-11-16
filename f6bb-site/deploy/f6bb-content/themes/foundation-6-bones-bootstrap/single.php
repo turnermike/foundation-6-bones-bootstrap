@@ -25,6 +25,8 @@
 								get_template_part( 'post-formats/format', get_post_format() );
 							?>
 
+							 <?php if ( is_singular() ) wp_enqueue_script( "comment-reply" ); ?>
+
 						<?php endwhile; ?>
 
 						<?php else : ?>
