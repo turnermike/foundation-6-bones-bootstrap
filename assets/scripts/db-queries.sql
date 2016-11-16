@@ -16,7 +16,7 @@ select option_value from om21qxlqh_options where option_id = 1;
 ---
 
 --- Connect
-mysql -h 0.0.0.0 -u greengiant-p'iO#2d*23Xs5@d%' greengiant_website
+mysql -h localhost -u f6bb -p'N#skj&98SR%Jje' f6bb_website
 
 --- Dump
 docker exec -i f6bb-db mysqldump -uf6bb -p'N#skj&98SR%Jje' f6bb_website > ~/Sites/Scripts/foundation-6-bones-bootstrap/assets/database/development/latest.sql &&
