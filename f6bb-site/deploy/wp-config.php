@@ -33,8 +33,8 @@ define('ENVIRONMENT', $environment);
 if(defined('ENVIRONMENT')){
     switch(ENVIRONMENT){
     case 'development':
-        define('WP_CONTENT_DIR', '/public_html/gg-content');
-        define('WP_CONTENT_URL', 'http://foundation-6-bones-bootstrap.dev/gg-content');
+        define('WP_CONTENT_DIR', '/public_html/f6bb-content');
+        define('WP_CONTENT_URL', 'http://foundation-6-bones-bootstrap.dev/f6bb-content');
         define('DB_HOST', 'f6bb-db');
         define('WP_DEBUG', true);
         define('WP_DEBUG_LOG', true);
@@ -42,7 +42,7 @@ if(defined('ENVIRONMENT')){
         @ini_set('display_errors', true);
         break;
     case 'staging':
-        define('WP_CONTENT_DIR', '/public_html/gg-content');
+        define('WP_CONTENT_DIR', '/public_html/f6bb-content');
         define('WP_CONTENT_URL', '');
         define('WP_DEBUG', true);
         define('WP_DEBUG_LOG', true);
@@ -50,7 +50,7 @@ if(defined('ENVIRONMENT')){
         @ini_set('display_errors', true);
         break;
     case 'production':
-        define('WP_CONTENT_DIR', '/public_html/gg-content');
+        define('WP_CONTENT_DIR', '/public_html/f6bb-content');
         define('WP_CONTENT_URL', '');
         define('WP_DEBUG', false);
         define('WP_DEBUG_LOG', false);
