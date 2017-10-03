@@ -55,6 +55,15 @@ RUN yum install --enablerepo=epel,remi-php56,remi -y \
 # add the files from deploy to public_html
 ADD ./deploy ./
 
+# set file permissions
+RUN chmod 444 ./.htaccess
+RUN chmod 444 ./wp-config.php
+RUN chmod -R 777 ./f6bb-content/uploads
+RUN chmod -R 755 ./f6bb-content/updraft
+
+# add the files from the .data to /.data
+# ADD ./.data /var/lib/mysql
+
 # overwrite the php.ini file
 ADD ./php/php.ini /etc/php.ini
 
@@ -85,9 +94,6 @@ RUN yum clean all
 # open ports
 # EXPOSE 80 443
 EXPOSE 80
-# EXPOSE 81
 
 # start apache
 CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
-
-

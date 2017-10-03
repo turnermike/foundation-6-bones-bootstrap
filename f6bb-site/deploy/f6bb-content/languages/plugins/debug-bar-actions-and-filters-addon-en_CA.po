@@ -1,0 +1,86 @@
+# Translation of Plugins - Debug Bar Actions and Filters Addon - Stable (latest release) in English (Canada)
+# This file is distributed under the same license as the Plugins - Debug Bar Actions and Filters Addon - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-07-06 21:12:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_CA\n"
+"Project-Id-Version: Plugins - Debug Bar Actions and Filters Addon - Stable (latest release)\n"
+
+#: debug-bar-action-and-filters-addon.php:67
+msgid "Action Hooks"
+msgstr "Action Hooks"
+
+#: debug-bar-action-and-filters-addon.php:68
+msgid "Filter Hooks"
+msgstr "Filter Hooks"
+
+#. Author URI of the plugin/theme
+msgid "http://subharanjan.com/"
+msgstr "http://subharanjan.com/"
+
+#. Author of the plugin/theme
+msgid "Subharanjan"
+msgstr "Subharanjan"
+
+#. Description of the plugin/theme
+msgid "This plugin add two more tabs in the Debug Bar to display hooks(Actions and Filters) attached to the current request. Actions tab displays the actions hooked to current request. Filters tab displays the filter tags along with the functions attached to it with priority."
+msgstr "This plugin add two more tabs in the Debug Bar to display hooks(Actions and Filters) attached to the current request. Actions tab displays the actions hooked to current request. Filters tab displays the filter tags along with the functions attached to it with priority."
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/debug-bar-actions-and-filters-addon/"
+msgstr "https://en-ca.wordpress.org/plugins/debug-bar-actions-and-filters-addon/"
+
+#. Plugin Name of the plugin/theme
+msgid "Debug Bar Actions and Filters Addon"
+msgstr "Debug Bar Actions and Filters Addon"
+
+#: debug-bar-action-and-filters-addon.php:231
+msgid "Unique registered callbacks:"
+msgstr "Unique registered callbacks:"
+
+#: debug-bar-action-and-filters-addon.php:230
+msgid "Total registered callbacks:"
+msgstr "Total registered callbacks:"
+
+#: debug-bar-action-and-filters-addon.php:229
+msgid "Total hooks with registered actions/filters:"
+msgstr "Total hooks with registered actions/filters:"
+
+#: debug-bar-action-and-filters-addon.php:204
+msgid "object"
+msgstr "object"
+
+#: debug-bar-action-and-filters-addon.php:196
+#: debug-bar-action-and-filters-addon.php:200
+msgid "class"
+msgstr "class"
+
+#: debug-bar-action-and-filters-addon.php:183
+#: debug-bar-action-and-filters-addon.php:187
+msgid "closure"
+msgstr "closure"
+
+#: debug-bar-action-and-filters-addon.php:133
+msgid "Registered callbacks"
+msgstr "Registered callbacks"
+
+#: debug-bar-action-and-filters-addon.php:132
+msgid "Priority"
+msgstr "Priority"
+
+#: debug-bar-action-and-filters-addon.php:131
+msgid "Hook"
+msgstr "Hook"
+
+#: debug-bar-action-and-filters-addon.php:87
+msgid "List of Action Hooks"
+msgstr "List of Action Hooks"
+
+#: debug-bar-action-and-filters-addon.php:86
+msgid "Total Actions in this page load:"
+msgstr "Total Actions in this page load:"

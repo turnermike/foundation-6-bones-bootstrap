@@ -1,0 +1,131 @@
+# Translation of Plugins - Debug Bar Post Types - Stable (latest release) in English (Canada)
+# This file is distributed under the same license as the Plugins - Debug Bar Post Types - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-07-10 19:00:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_CA\n"
+"Project-Id-Version: Plugins - Debug Bar Post Types - Stable (latest release)\n"
+
+#: inc/debug-bar-pretty-output/class-debug-bar-pretty-output.php:456
+#: inc/debug-bar-pretty-output/class-debug-bar-pretty-output.php:502
+msgid "Value"
+msgstr "Value"
+
+#. Author URI of the plugin/theme
+msgid "http://www.adviesenzo.nl/"
+msgstr "http://www.adviesenzo.nl/"
+
+#. Author of the plugin/theme
+msgid "Juliette Reinders Folmer"
+msgstr "Juliette Reinders Folmer"
+
+#. Description of the plugin/theme
+msgid "Debug Bar Post Types adds a new panel to the Debug Bar that displays detailed information about the registered post types for your site. Requires \"Debug Bar\" plugin."
+msgstr "Debug Bar Post Types adds a new panel to the Debug Bar that displays detailed information about the registered post types for your site. Requires \"Debug Bar\" plugin."
+
+#. Plugin Name of the plugin/theme
+msgid "Debug Bar Post Types"
+msgstr "Debug Bar Post Types"
+
+#: inc/debug-bar-pretty-output/class-debug-bar-pretty-output.php:623
+#: inc/debug-bar-pretty-output/class-debug-bar-pretty-output.php:642
+#: inc/debug-bar-pretty-output/class-debug-bar-pretty-output.php:660
+#: inc/debug-bar-pretty-output/class-debug-bar-pretty-output.php:679
+msgid "or even better: upgrade your Debug Bar plugins to their current version"
+msgstr "or even better: upgrade your Debug Bar plugins to their current version"
+
+#: inc/debug-bar-pretty-output/class-debug-bar-pretty-output.php:462
+msgid "Object Methods:"
+msgstr "Object Methods:"
+
+#: inc/debug-bar-pretty-output/class-debug-bar-pretty-output.php:453
+msgid "Object Properties:"
+msgstr "Object Properties:"
+
+#: inc/debug-bar-pretty-output/class-debug-bar-pretty-output.php:442
+msgid "Methods:"
+msgstr "Methods:"
+
+#: inc/debug-bar-pretty-output/class-debug-bar-pretty-output.php:439
+msgid "Properties:"
+msgstr "Properties:"
+
+#: inc/debug-bar-pretty-output/class-debug-bar-pretty-output.php:179
+msgid "I haven't got a clue what this is: "
+msgstr "I haven't got a clue what this is: "
+
+#: inc/debug-bar-pretty-output/class-debug-bar-pretty-output.php:244
+msgid "undetermined"
+msgstr "undetermined"
+
+#. translators: %d = number used as a limit.
+#: inc/debug-bar-pretty-output/class-debug-bar-pretty-output.php:103
+#: inc/debug-bar-pretty-output/class-debug-bar-pretty-output.php:167
+msgid "output limited at recursion depth %d"
+msgstr "output limited at recursion depth %d"
+
+#: class-debug-bar-post-types.php:474
+msgid "Does not have capability"
+msgstr "Does not have capability"
+
+#: class-debug-bar-post-types.php:474
+msgid "Has capability"
+msgstr "Has capability"
+
+#: class-debug-bar-post-types.php:450
+msgid "Post Type Capabilities:"
+msgstr "Post Type Capabilities:"
+
+#: class-debug-bar-post-types.php:199
+msgid "No post types found."
+msgstr "No post types found."
+
+#: class-debug-bar-post-types.php:324
+msgid "Defined Labels:"
+msgstr "Defined Labels:"
+
+#: class-debug-bar-post-types.php:295
+msgid "Custom Post Type Properties:"
+msgstr "Custom Post Type Properties:"
+
+#: class-debug-bar-post-types.php:280
+msgid "Standard Post Type Properties:"
+msgstr "Standard Post Type Properties:"
+
+#: class-debug-bar-post-types.php:190
+msgid "Custom Post Types:"
+msgstr "Custom Post Types:"
+
+#: class-debug-bar-post-types.php:181
+msgid "Total Post Types:"
+msgstr "Total Post Types:"
+
+#: inc/debug-bar-pretty-output/class-debug-bar-pretty-output.php:501
+msgid "Key"
+msgstr "Key"
+
+#: inc/debug-bar-pretty-output/class-debug-bar-pretty-output.php:130
+msgid "unknown"
+msgstr "unknown"
+
+#: class-debug-bar-post-types.php:434 class-debug-bar-post-types.php:442
+msgid "Capability"
+msgstr "Capability"
+
+#: class-debug-bar-post-types.php:346 class-debug-bar-post-types.php:354
+#: inc/debug-bar-pretty-output/class-debug-bar-pretty-output.php:456
+msgid "Property"
+msgstr "Property"
+
+#: class-debug-bar-post-types.php:98
+msgid "Post Types"
+msgstr "Post Types"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/debug-bar-post-types/"
+msgstr "https://en-ca.wordpress.org/plugins/debug-bar-post-types/"
