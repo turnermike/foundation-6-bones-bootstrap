@@ -19,14 +19,19 @@ ENV APACHE_LOG_DIR /var/log/httpd
 ENV APACHE_LOCK_DIR /var/lock/httpd
 ENV APACHE_PID_FILE /var/run/httpd.pid
 
+# mysql environment variables
+ENV MYSQL_HOST "f6bb-db"
+ENV MYSQL_DATABASE "f6bb_website"
+ENV MYSQL_USER "f6bb"
+ENV MYSQL_PASSWORD "N#skj&98SR%Jje"
+
 
 # ==========================================================================
 #  Installations
 # ==========================================================================
 
 # install software (extra packages for enterprise linux (EPEL), apache, mod_ssl, php)
-# RUN rpm -ivh http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
-RUN yum install -y epel-release
+RUN rpm -ivh http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
 RUN rpm -ivh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
 RUN yum install -y nano
 RUN yum install -y httpd
